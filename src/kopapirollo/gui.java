@@ -143,7 +143,7 @@ public class gui extends javax.swing.JFrame {
          kilepes();
     }//GEN-LAST:event_mnuKilepesActionPerformed
     
-   
+         
 
     private void playGame(String playerChoice) {
         String[] options = {"Kő", "Papír", "Olló"};
@@ -168,6 +168,8 @@ public class gui extends javax.swing.JFrame {
     private void resetGame() {
         jTextField1.setText("");
     }
+    
+    
     
     
     private void kilepes(){
